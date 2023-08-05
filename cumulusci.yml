@@ -1,0 +1,24 @@
+minimum_cumulusci_version: '3.77.0'
+project:
+    name: impact23
+    package:
+        name: impact23
+        api_version: '55.0'
+    git:
+    source_format: sfdx
+
+tasks:
+    robot:
+        options:
+            suites: robot/impact23/tests
+            options:
+                outputdir: robot/impact23/results
+
+    robot_testdoc:
+        options:
+            path: robot/impact23/tests
+            output: robot/impact23/doc/impact23_tests.html
+
+    run_tests:
+        options:
+            required_org_code_coverage_percent: 75
