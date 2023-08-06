@@ -1,45 +1,27 @@
-Insert Accounts:
-    sf_object: Account
-    table: Account
-    fields:
-        Name: Name
-        Description: Description
-        BillingStreet: BillingStreet
-        BillingCity: BillingCity
-        BillingState: BillingState
-        BillingPostalCode: BillingPostalCode
-        BillingCountry: BillingCountry
-        ShippingStreet: ShippingStreet
-        ShippingCity: ShippingCity
-        ShippingState: ShippingState
-        ShippingPostalCode: ShippingPostalCode
-        ShippingCountry: ShippingCountry
-        Phone: Phone
-        Fax: Fax
-        Website: Website
-        NumberOfEmployees: NumberOfEmployees
-        AccountNumber: AccountNumber
-        Site: Site
-        Type: Type
-Insert Contacts:
-    sf_object: Contact
-    table: Contact
-    fields:
-        Salutation: Salutation
-        FirstName: FirstName
-        LastName: LastName
-        Email: Email
-        Phone: Phone
-        MobilePhone: MobilePhone
-        OtherPhone: OtherPhone
-        HomePhone: HomePhone
-        Title: Title
-        Birthdate: Birthdate
-        MailingStreet: MailingStreet
-        MailingCity: MailingCity
-        MailingState: MailingState
-        MailingPostalCode: MailingPostalCode
-        MailingCountry: MailingCountry
-    lookups:
-        AccountId:
-            table: Account
+Insert Impact_2023_Registrant__c:
+  sf_object: Impact_2023_Registrant__c
+  fields:
+  - Attended__c
+  - Company__c
+  - Email__c
+  - First_Name__c
+  - Last_Name__c
+  - Likes_Ice_Cream__c
+  - Preferred_First_Name__c
+  - Speaker_Bio__c
+Insert Impact_2023_Sessions_Type__c:
+  sf_object: Impact_2023_Sessions_Type__c
+  fields:
+  - Session_Description__c
+  - Session_Presenter_Title__c
+  - Session_Title__c
+  lookups:
+    Impact_2023_Presenter__c:
+      table: Impact_2023_Registrant__c
+Insert Impact_2023_Session__c:
+  sf_object: Impact_2023_Session__c
+  lookups:
+    Impact_2023_Registrant__c:
+      table: Impact_2023_Registrant__c
+    Impact_2023_Sessions_Type__c:
+      table: Impact_2023_Sessions_Type__c
