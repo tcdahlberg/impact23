@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Last_Name__c</fullName>
-    <description>Last name of registrant</description>
+    <fullName>Session_Presenter__c</fullName>
     <externalId>false</externalId>
-    <inlineHelpText>Last name of registrant</inlineHelpText>
-    <label>Last Name</label>
-    <length>255</length>
+    <formula>Impact_2023_Sessions_Type__r.Impact_2023_Presenter__r.Name</formula>
+    <label>Session Presenter</label>
     <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Text</type>

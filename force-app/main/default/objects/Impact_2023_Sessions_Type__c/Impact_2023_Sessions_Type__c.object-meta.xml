@@ -156,8 +156,9 @@
     <externalSharingModel>Private</externalSharingModel>
     <label>Impact 2023 Sessions Type</label>
     <nameField>
+        <displayFormat>Session Type-{000000}</displayFormat>
         <label>Impact23 Sessions Types Name</label>
-        <type>Text</type>
+        <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Impact 2023 Sessions Types</pluralLabel>
     <searchLayouts></searchLayouts>

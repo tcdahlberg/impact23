@@ -7,17 +7,13 @@
         <label>Information</label>
         <layoutColumns>
             <layoutItems>
-                <behavior>Required</behavior>
-                <field>Name</field>
-            </layoutItems>
-            <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Session_Title__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Session_Description__c</field>
-            </layoutItems>
+            </layoutItems>re
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Session_Presenter_Title__c</field>

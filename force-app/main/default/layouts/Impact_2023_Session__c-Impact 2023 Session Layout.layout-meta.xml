@@ -7,7 +7,7 @@
         <label>Information</label>
         <layoutColumns>
             <layoutItems>
-                <behavior>Required</behavior>
+                <behavior>Readonly</behavior>
                 <field>Name</field>
             </layoutItems>
             <layoutItems>
@@ -17,6 +17,14 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Impact_2023_Sessions_Type__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Session_Title__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Session_Presenter__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>

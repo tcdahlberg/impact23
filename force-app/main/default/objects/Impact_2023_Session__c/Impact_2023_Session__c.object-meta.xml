@@ -157,7 +157,7 @@
     <label>Impact 2023 Session</label>
     <nameField>
         <label>Impact 2023 Session Name</label>
-        <type>Text</type>
+        <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Impact 2023 Sessions</pluralLabel>
     <searchLayouts></searchLayouts>
