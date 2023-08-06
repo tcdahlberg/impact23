@@ -160,12 +160,13 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <label>Impact 2023</label>
+    <label>Impact 2023 Registrant</label>
     <nameField>
+        <displayFormat>Reg-{00000}</displayFormat>
         <label>Impact 2023 Name</label>
-        <type>Text</type>
+        <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Impacts 2023</pluralLabel>
+    <pluralLabel>Impact 2023 Registrants</pluralLabel>
     <searchLayouts></searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
