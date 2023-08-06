@@ -64,4 +64,8 @@
         <name>Impact_2023</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>Impact_2023_App</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
 </AppMenu>

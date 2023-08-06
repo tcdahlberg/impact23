@@ -5,7 +5,7 @@
     <description>Look up from a session to an attendee</description>
     <externalId>false</externalId>
     <inlineHelpText>Look up from a session to an attendee</inlineHelpText>
-    <label>Impact 2023</label>
+    <label>Impact 2023 Registrant</label>
     <referenceTo>Impact_2023_Registrant__c</referenceTo>
     <relationshipLabel>Impact 2023 Sessions</relationshipLabel>
     <relationshipName>Impact_2023_Sessions</relationshipName>

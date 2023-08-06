@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>standard-home</defaultLandingTab>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <label>Impact 2023</label>
+    <tabs>Impact_2023_Registrant__c</tabs>
+    <tabs>Impact_2023_Session__c</tabs>
+    <tabs>Impact_2023_Sessions_Type__c</tabs>
+</CustomApplication>
