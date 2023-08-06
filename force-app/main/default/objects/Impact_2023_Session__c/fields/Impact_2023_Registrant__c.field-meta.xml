@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Impact_2023__c</fullName>
+    <fullName>Impact_2023_Registrant__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <description>Look up from a session to an attendee</description>
     <externalId>false</externalId>
     <inlineHelpText>Look up from a session to an attendee</inlineHelpText>
     <label>Impact 2023</label>
-    <referenceTo>Impact_2023__c</referenceTo>
+    <referenceTo>Impact_2023_Registrant__c</referenceTo>
     <relationshipLabel>Impact 2023 Sessions</relationshipLabel>
     <relationshipName>Impact_2023_Sessions</relationshipName>
     <required>false</required>

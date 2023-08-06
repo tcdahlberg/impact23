@@ -137,7 +137,7 @@
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>parentFieldApiName</name>
-                    <value>Impact_2023__c.Id</value>
+                    <value>Impact_2023_Registrant__c.Id</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>relatedListApiName</name>
@@ -187,7 +187,7 @@
     </flexiPageRegions>
     <masterLabel>Impact 2023 Record Page</masterLabel>
     <parentFlexiPage>flexipage__default_rec_L</parentFlexiPage>
-    <sobjectType>Impact_2023__c</sobjectType>
+    <sobjectType>Impact_2023_Registrant__c</sobjectType>
     <template>
         <name>flexipage:recordHomeTemplateDesktop</name>
     </template>

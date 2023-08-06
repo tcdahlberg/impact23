@@ -78,7 +78,7 @@
     </layoutSections>
     <relatedLists>
         <fields>Impact_2023_Sessions_Type__c</fields>
-        <relatedList>Impact_2023_Session__c.Impact_2023__c</relatedList>
+        <relatedList>Impact_2023_Session__c.Impact_2023_Registrant__c</relatedList>
     </relatedLists>
     <relatedLists>
         <fields>NAME</fields>

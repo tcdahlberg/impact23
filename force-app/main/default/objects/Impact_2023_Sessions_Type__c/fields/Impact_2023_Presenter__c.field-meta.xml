@@ -6,7 +6,7 @@
     <externalId>false</externalId>
     <inlineHelpText>Look up to the presenter details.</inlineHelpText>
     <label>Impact 2023_Presenter</label>
-    <referenceTo>Impact_2023__c</referenceTo>
+    <referenceTo>Impact_2023_Registrant__c</referenceTo>
     <relationshipLabel>Impact 2023 Sessions Types</relationshipLabel>
     <relationshipName>Impact_2023_Sessions_Types</relationshipName>
     <required>false</required>

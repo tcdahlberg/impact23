@@ -12,7 +12,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Impact_2023__c</field>
+                <field>Impact_2023_Registrant__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
