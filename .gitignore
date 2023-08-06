@@ -51,3 +51,11 @@ $RECYCLE.BIN/
 .idea
 .project
 .settings
+
+# Illuminated Cloud (IntelliJ IDEA)
+IlluminatedCloud
+out
+*.iml
+
+# CumulusCI
+/test_results.*

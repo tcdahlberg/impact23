@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#9A1BEE</headerColor>
+        <logo>X20230706_mug</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <description>The best conference in the world</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <label>Impact 2023</label>
+    <navType>Standard</navType>
+    <tabs>Impact_2023__c</tabs>
+    <tabs>Impact_2023_Session__c</tabs>
+    <tabs>Impact_2023_Sessions_Type__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Impact_2023_UtilityBar</utilityBar>
+</CustomApplication>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Session_Description__c</fullName>
+    <description>The full description and details about the session at Impact 2023.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The full description and details about the session at Impact 2023.</inlineHelpText>
+    <label>Session Description</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>
