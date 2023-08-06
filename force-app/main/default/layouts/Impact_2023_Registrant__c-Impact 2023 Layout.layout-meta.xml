@@ -22,6 +22,10 @@
                 <behavior>Edit</behavior>
                 <field>Preferred_First_Name__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Speaker_Bio__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -38,7 +42,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Atteneded__c</field>
+                <field>Attended__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
